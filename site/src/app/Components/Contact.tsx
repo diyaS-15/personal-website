@@ -17,6 +17,7 @@ export default function Contact(){
           <Mail size={24} strokeWidth={1.5} />
         </a>
       </div>
+        <p className="text-center text-sm opacity-50">Built by Diya Shrivastava</p>
             </footer>
         </div>
     );

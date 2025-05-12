@@ -1,6 +1,7 @@
 export default function HorizontalScroll(){
     return(
-    <div>
+    <div className="">
+
     </div>
     );
 }

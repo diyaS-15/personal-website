@@ -1,5 +1,6 @@
+import { useRouter } from 'next/navigation';
 export default function Projects(){
     return(
-    <div>Hello</div>
+    <div>This is projects page</div>
     );
 }

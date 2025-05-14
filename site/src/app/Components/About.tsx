@@ -1,6 +1,8 @@
+import Link from 'next/link';
+
 export default function About(){
     return(
-    <div className="ml-6 mt-10 md:my-20 md:mx-30">
+    <div className="ml-6 mt-6 md:my-20 md:mx-30">
     <p className="text-lg pt-4 font-mono">Hi, my name is </p>
     <p className="text-4xl pt-3 md:text-7xl">Diya Shrivastava</p>
     <p className="text-4xl py-3 text-gray-400 md:text-7xl">And I like to build things. </p>
@@ -10,6 +12,9 @@ export default function About(){
     <div>
     <p className="text-center mr-2 md:text-xl md:mx-20"> Hello! I'm Diya and I'm passionate about incorporating AI & ML into full stack applications. Currently, I am pursuing a B.S. in Computer Science 
         with a minor in Business. </p>
+        <p className="text-center mt-1 mr-2 mb-4 md:text-xl md:mx-20"> In my free time, I'm usually working on personal projects but 
+            when I'm not coding, you can find me sketching or out in nature!
+        </p>
     </div>
     <div className=" text-center opacity-80">
             <ul className="grid grid-cols-3 my-4">
@@ -20,7 +25,13 @@ export default function About(){
                 <li>» React/ Next.js</li>
                 <li>» PostgreSQL </li>
             </ul>
-        </div>
+     </div>
+     <div className="text-center pt-4">
+     <button className="border-1 rounded-lg ml-0 mt-0 m-4 px-4 py-2 mb-4 hover:text-gray-400 md:text-xl">
+       <Link href="/Experience">Experience</Link>
+        </button>
+     <button className="border-1 rounded-lg ml-0 mt-0 m-4 px-4 py-2 mb-4 hover:text-gray-400 md:text-xl">Projects</button>
+     </div>
     </div>
     );
 }

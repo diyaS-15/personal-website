@@ -7,7 +7,7 @@ import Experience from "./Components/Experience";
 
 export default function Home() {
   return (
-    <div className="text-[#ededed] font-sans">
+    <div className="text-[#ededed] font-sans h-screen">
       <Navbar/>
       <About/>
       <HorizontalScroll/>

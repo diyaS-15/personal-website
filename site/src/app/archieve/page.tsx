@@ -4,7 +4,7 @@ export default function ProjectArchieve() {
     return(
     <main className=" text-center m-6 md:m-30">
         <h1 className=" text-4xl font-mono">Archieve</h1>
-        <p>List of things I've worked on</p>
+        <p>List of things I&apos;ve worked on</p>
         <div className="text-slate-50">
         <div className="font-bold m-4">
         <ArchieveFormat year="year" title="title" madeAt="made At " tech="Built With" link="Link" />

@@ -126,7 +126,7 @@ export default function Projects(){
         </div>
         
         </div>
-        <Link href="https://github.com/diyaS-15?tab=repositories" className="ml-7 md:ml-30 font-mono opacity-80 text-[#669bbc] hover:text-[#5886a3]">Full Project Archieve -> </Link>
+        <Link href="https://github.com/diyaS-15?tab=repositories" className="ml-7 md:ml-30 font-mono opacity-80 text-[#669bbc] hover:text-[#5886a3]">Full Project Archieve -&gt;</Link>
         </div>
     );
 }

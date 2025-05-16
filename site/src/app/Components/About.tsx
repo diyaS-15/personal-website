@@ -10,10 +10,10 @@ export default function About(){
         <a href="/images/spring25-resume.pdf" target="_blank" rel="noopener noreferrer">Resume</a></button>
     </div>
     <div>
-    <p className="text-center mr-2 md:text-xl md:mx-20"> Hello! I'm Diya and I'm passionate about incorporating AI & ML into full stack applications. Currently, I am pursuing a B.S. in Computer Science 
+    <p className="text-center mr-2 md:text-xl md:mx-20"> Hello! I&apos;m Diya and I&apos;m passionate about incorporating AI & ML into full stack applications. Currently, I am pursuing a B.S. in Computer Science 
         with a minor in Business. </p>
-        <p className="text-center mt-1 mr-2 mb-4 md:text-xl md:mx-20"> In my free time, I'm usually working on personal projects but 
-            when I'm not coding, you can find me sketching or out in nature!
+        <p className="text-center mt-1 mr-2 mb-4 md:text-xl md:mx-20"> In my free time, I&apos;m usually working on personal projects but 
+            when I&apos;m not coding, you can find me sketching or out in nature!
         </p>
     </div>
     <div className=" text-center opacity-90">

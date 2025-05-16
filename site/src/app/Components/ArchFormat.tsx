@@ -9,7 +9,7 @@ interface ArchieveProps{
 }
 export default function ArchFormat({year,title,madeAt,tech,link}:ArchieveProps){
     return(
-        <div className="flex flex-row gap-4">
+        <div className="flex items-left justify-between w-full">
             <div>{year}</div>
             <div>{title}</div>
             <div>{madeAt}</div>

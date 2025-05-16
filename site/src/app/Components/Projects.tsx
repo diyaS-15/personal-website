@@ -8,8 +8,8 @@ export default function Projects(){
         <div className="h-auto">
             <h2 className="text-3xl text-center font-mono m-2 mt-20 mb-8 md:hidden">Projects</h2>
     <div className=" md:grid grid-rows-2 grid-cols-3 md:gap-4 md:mx-28">
-        <div className="bg-[#3c5e73] opacity-70 hover:bg-[#233947] my-4 mx-6 p-4 shadow-lg md:mx-1 ">
-            <div className="flex gap-97 md:gap-75">
+        <div className="bg-[#3c5e73] opacity-70 hover:bg-[#233947] my-4 mx-6 p-4 shadow-lg md:mx-1">
+            <div className="flex items-center justify-between w-full">
             <FolderCode size={43} strokeWidth={1.2}/>
             <Link href="https://github.com/diyaS-15/job-recommendation-system" className="hover:text-gray-400">
             <ExternalLink size={27} strokeWidth={1.2} />
@@ -36,7 +36,7 @@ export default function Projects(){
             </ul>
         </div>
         <div className="bg-[#3c5e73] opacity-70 hover:bg-[#233947] my-4 mx-6 p-4 shadow-lg md:mx-1 ">
-        <div className="flex gap-97 md:gap-75">
+        <div className="flex items-center justify-between w-full">
             <FolderCode size={43} strokeWidth={1.2}/>
             <Link href="https://github.com/diyaS-15/membership-inference-attack" className="hover:text-gray-400">
             <ExternalLink size={27} strokeWidth={1.2} />
@@ -58,7 +58,7 @@ export default function Projects(){
             </ul>
         </div>
         <div className="bg-[#3c5e73] opacity-70 hover:bg-[#233947] my-4 mx-6 p-4 shadow-lg md:mx-1">
-        <div className="flex gap-97 md:gap-75">
+        <div className="flex items-center justify-between w-full">
             <FolderCode size={43} strokeWidth={1.2}/>
             <Link href="https://paragonautonomous.github.io/website/#home" className="hover:text-gray-400">
             <ExternalLink size={27} strokeWidth={1.2} />
@@ -74,7 +74,7 @@ export default function Projects(){
             </ul>
         </div>
         <div className="bg-[#3c5e73] opacity-70 hover:bg-[#233947] my-4 mx-6 p-4 shadow-lg md:mx-1">
-        <div className="flex gap-97 md:gap-75">
+        <div className="flex items-center justify-between w-full">
             <FolderCode size={43} strokeWidth={1.2}/>
             <Link href="https://github.com/diyaS-15/Student-Wellness-Hub" className="hover:text-gray-400">
             <ExternalLink size={27} strokeWidth={1.2} />
@@ -92,7 +92,7 @@ export default function Projects(){
             </ul>
         </div>
         <div className="bg-[#3c5e73] opacity-70 hover:bg-[#233947] my-4 mx-6 p-4 shadow-lg md:mx-1">
-        <div className="flex gap-97 md:gap-75">
+        <div className="flex items-center justify-between w-full">
             <FolderCode size={43} strokeWidth={1.2}/>
             <Link href="https://github.com/diyaS-15/AI-music-recommender" className="hover:text-gray-400">
             <ExternalLink size={27} strokeWidth={1.2} />
@@ -109,7 +109,7 @@ export default function Projects(){
             </ul>
         </div>
         <div className="bg-[#3c5e73] opacity-70 hover:bg-[#233947] my-4 mx-6 p-4 shadow-lg md:mx-1">
-        <div className="flex gap-97 md:gap-75">
+        <div className="flex items-center justify-between w-full">
             <FolderCode size={43} strokeWidth={1.2}/>
             <Link href="https://github.com/quinncage/WiCSProject" className="hover:text-gray-400">
             <ExternalLink size={27} strokeWidth={1.2} />
@@ -126,7 +126,7 @@ export default function Projects(){
         </div>
         
         </div>
-        <Link href="../archieve" className="ml-7 md:ml-30 font-mono opacity-80 text-[#669bbc] hover:text-[#5886a3]">Full Project Archieve -></Link>
+        <Link href="https://github.com/diyaS-15?tab=repositories" className="ml-7 md:ml-30 font-mono opacity-80 text-[#669bbc] hover:text-[#5886a3]">Full Project Archieve -> </Link>
         </div>
     );
 }

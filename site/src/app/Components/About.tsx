@@ -1,4 +1,3 @@
-import { useRouter } from 'next/navigation';
 
 export default function About(){
     return(
@@ -7,7 +6,8 @@ export default function About(){
     <p className="text-4xl pt-3 md:text-7xl">Diya Shrivastava</p>
     <p className="text-4xl py-3  md:text-7xl text-[#5886a3] ">And I like to build things. </p>
     <div className="ml-0 m-4">
-    <button className="border-double border-4 rounded-lg ml-0 mt-0 m-4 px-4 py-2 mb-8 hover:text-gray-400 md:text-xl">Resume</button>
+    <button className="border-double border-4 rounded-lg ml-0 mt-0 m-4 px-4 py-2 mb-8 hover:text-gray-400 md:text-xl">
+        <a href="/images/spring25-resume.pdf" target="_blank" rel="noopener noreferrer">Resume</a></button>
     </div>
     <div>
     <p className="text-center mr-2 md:text-xl md:mx-20"> Hello! I'm Diya and I'm passionate about incorporating AI & ML into full stack applications. Currently, I am pursuing a B.S. in Computer Science 

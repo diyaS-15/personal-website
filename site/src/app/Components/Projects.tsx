@@ -1,5 +1,4 @@
 'use client'
-import Image from 'next/image'
 import {ExternalLink, FolderCode, Dot} from "lucide-react"
 import Link from 'next/link'
 
@@ -16,7 +15,7 @@ export default function Projects(){
             </Link>
             </div>
             <h2 className="text-2xl py-2 "> ResuMatch</h2>
-            <p className="text-md"> Job Recommendation System that parses a user's resume and provides
+            <p className="text-md"> Job Recommendation System that parses a user&apos;s resume and provides
                  personalized job matches using collaborative filtering and natural language processing models.
             </p>
             <ul className="text-md mt-4 flex gap-1 flex-wrap">
@@ -44,7 +43,7 @@ export default function Projects(){
             </div>
             <h2 className="text-2xl py-2"> Membership Inference Attack</h2>
             <p className="text-md ">Membership Inference Attack on predictive models for PCOS diagnosis to determine if a 
-            given memeber was inside the initial predicition model's training dataset.</p>
+            given memeber was inside the initial predicition model&apos;s training dataset.</p>
             <ul className="text-md mt-4 flex gap-1 flex-wrap">
                 <li>Python</li>
                 <Dot/>

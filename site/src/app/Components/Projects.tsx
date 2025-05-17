@@ -93,7 +93,7 @@ export default function Projects(){
         <div className="bg-[#3c5e73] opacity-70 hover:bg-[#233947] my-4 mx-6 p-4 shadow-lg md:mx-1">
         <div className="flex items-center justify-between w-full">
             <FolderCode size={43} strokeWidth={1.2}/>
-            <Link href="https://github.com/diyaS-15/AI-music-recommender" className="hover:text-gray-400">
+            <Link href="https://ai-song-recommender.streamlit.app/" className="hover:text-gray-400">
             <ExternalLink size={27} strokeWidth={1.2} />
             </Link>
             </div>

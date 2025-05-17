@@ -10,7 +10,7 @@ export default function Projects(){
         <div className="bg-[#3c5e73] opacity-70 hover:bg-[#233947] my-4 mx-6 p-4 shadow-lg md:mx-1">
             <div className="flex items-center justify-between w-full">
             <FolderCode size={43} strokeWidth={1.2}/>
-            <Link href="https://github.com/diyaS-15/job-recommendation-system" className="hover:text-gray-400">
+            <Link href="https://github.com/diyaS-15/job-recommendation-system" target="_blank" rel="noopener noreferrer" className="hover:text-gray-400">
             <ExternalLink size={27} strokeWidth={1.2} />
             </Link>
             </div>
@@ -37,7 +37,7 @@ export default function Projects(){
         <div className="bg-[#3c5e73] opacity-70 hover:bg-[#233947] my-4 mx-6 p-4 shadow-lg md:mx-1 ">
         <div className="flex items-center justify-between w-full">
             <FolderCode size={43} strokeWidth={1.2}/>
-            <Link href="https://github.com/diyaS-15/membership-inference-attack" className="hover:text-gray-400">
+            <Link href="https://github.com/diyaS-15/membership-inference-attack" target="_blank" rel="noopener noreferrer" className="hover:text-gray-400">
             <ExternalLink size={27} strokeWidth={1.2} />
             </Link>
             </div>
@@ -59,7 +59,7 @@ export default function Projects(){
         <div className="bg-[#3c5e73] opacity-70 hover:bg-[#233947] my-4 mx-6 p-4 shadow-lg md:mx-1">
         <div className="flex items-center justify-between w-full">
             <FolderCode size={43} strokeWidth={1.2}/>
-            <Link href="https://paragonautonomous.github.io/website/#home" className="hover:text-gray-400">
+            <Link href="https://paragonautonomous.github.io/website/#home" target="_blank" rel="noopener noreferrer" className="hover:text-gray-400">
             <ExternalLink size={27} strokeWidth={1.2} />
             </Link>
             </div>
@@ -75,7 +75,7 @@ export default function Projects(){
         <div className="bg-[#3c5e73] opacity-70 hover:bg-[#233947] my-4 mx-6 p-4 shadow-lg md:mx-1">
         <div className="flex items-center justify-between w-full">
             <FolderCode size={43} strokeWidth={1.2}/>
-            <Link href="https://github.com/diyaS-15/Student-Wellness-Hub" className="hover:text-gray-400">
+            <Link href="https://github.com/diyaS-15/Student-Wellness-Hub" target="_blank" rel="noopener noreferrer" className="hover:text-gray-400">
             <ExternalLink size={27} strokeWidth={1.2} />
             </Link>
             </div>
@@ -93,7 +93,7 @@ export default function Projects(){
         <div className="bg-[#3c5e73] opacity-70 hover:bg-[#233947] my-4 mx-6 p-4 shadow-lg md:mx-1">
         <div className="flex items-center justify-between w-full">
             <FolderCode size={43} strokeWidth={1.2}/>
-            <Link href="https://ai-song-recommender.streamlit.app/" className="hover:text-gray-400">
+            <Link href="https://ai-song-recommender.streamlit.app/" target="_blank" rel="noopener noreferrer" className="hover:text-gray-400">
             <ExternalLink size={27} strokeWidth={1.2} />
             </Link>
             </div>
@@ -110,7 +110,7 @@ export default function Projects(){
         <div className="bg-[#3c5e73] opacity-70 hover:bg-[#233947] my-4 mx-6 p-4 shadow-lg md:mx-1">
         <div className="flex items-center justify-between w-full">
             <FolderCode size={43} strokeWidth={1.2}/>
-            <Link href="https://github.com/quinncage/WiCSProject" className="hover:text-gray-400">
+            <Link href="https://github.com/quinncage/WiCSProject" target="_blank" rel="noopener noreferrer" className="hover:text-gray-400">
             <ExternalLink size={27} strokeWidth={1.2} />
             </Link>
             </div>

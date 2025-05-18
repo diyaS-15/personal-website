@@ -7,6 +7,7 @@ import { SpeedInsights } from "@vercel/speed-insights/next"
 export default function Home() {
   return (
     <div className="text-[#ededed] font-sans h-screen">
+      <SpeedInsights/>
       <Navbar/>
       <section id="about">
       <About/>

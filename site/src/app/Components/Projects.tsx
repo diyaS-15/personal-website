@@ -51,7 +51,7 @@ export default function Projects(){
                 <Dot/>
                 <li> Random Forest</li>
                 <Dot/>
-                <li>Machine Learning Models</li>
+                <li>Machine Learning</li>
                 <Dot/>
                 <li> Privacy</li>
             </ul>
@@ -66,7 +66,7 @@ export default function Projects(){
             <h2 className="text-2xl py-2"> Paragon Autonomous LLC Website</h2>
             <p className="text-md ">Developed company website to establish professional web presence. 
                 Started as an ASU Engineering Projects in Community Service Project. </p>
-            <ul className="text-md mt-4 flex gap-1">
+            <ul className="text-md mt-4 flex gap-1 flex-wrap">
                 <li>Next.js</li>
                 <Dot/>
                 <li>TailwindCSS</li>
@@ -84,7 +84,7 @@ export default function Projects(){
                 mental well-being. Key features include mood tracking, task tracking with to-do lists, embedded playlists
                 , self-care tips and clock. 
             </p>
-            <ul className="text-md mt-4 flex gap-1">
+            <ul className="text-md mt-4 flex gap-1 flex-wrap">
                 <li>Next.js</li>
                 <Dot/>
                 <li> MongoDB</li>
@@ -99,7 +99,7 @@ export default function Projects(){
             </div>
             <h2 className="text-2xl py-2">AI Music Recommender</h2>
             <p className="text-md ">Webapp that takes in user input for the event, audience, or mood and recommends a song using Gemini API and allows the track to play using Spotify Web API</p>
-            <ul className="text-md mt-4 flex gap-1">
+            <ul className="text-md mt-4 flex gap-1 flex-wrap">
                 <li>Python</li>
                 <Dot/>
                 <li> API Integration</li>
@@ -110,17 +110,21 @@ export default function Projects(){
         <div className="bg-[#3c5e73] opacity-70 hover:bg-[#233947] my-4 mx-6 p-4 shadow-lg md:mx-1">
         <div className="flex items-center justify-between w-full">
             <FolderCode size={43} strokeWidth={1.2}/>
-            <Link href="https://github.com/quinncage/WiCSProject" target="_blank" rel="noopener noreferrer" className="hover:text-gray-400">
+            <Link href="https://multilingual-transcription.streamlit.app/" target="_blank" rel="noopener noreferrer" className="hover:text-gray-400">
             <ExternalLink size={27} strokeWidth={1.2} />
             </Link>
             </div>
-            <h2 className="text-2xl py-2"> Speech-to-text Transcriber</h2>
-            <p className="text-md ">Application to transcribe audio files into text. This was developed during 
-                the Women in Computer Science Mentorship program, in collaboration with 4 students. </p>
-            <ul className="text-md mt-4 flex gap-1">
+            <h2 className="text-2xl py-2"> Multilingual Transcriber </h2>
+            <p className="text-md ">Webapp to record audio and transcribe the text. This tool supports multiple languages 
+                and provides the speech output for the translated text. </p>
+            <ul className="text-md mt-4 flex gap-1 flex-wrap">
                 <li>Python</li>
                 <Dot/>
                 <li> OpenAI Whisper</li>
+                <Dot/>
+                <li> gTTs </li>
+                <Dot/>
+                <li> Streamlit </li>
             </ul>
         </div>
         

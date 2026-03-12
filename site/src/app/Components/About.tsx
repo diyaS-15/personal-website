@@ -10,11 +10,11 @@ export default function About(){
         <a href="/images/Diya_Shrivastava_Resume-public.pdf" target="_blank" rel="noopener noreferrer">Resume</a></button>
     </div>
     <div>
-    <p className="text-center mr-2 md:text-xl md:mx-20"> Hello! I&apos;m Diya and I&apos;m passionate about incorporating AI & ML into full stack applications. Currently, I am pursuing a B.S. in Computer Science 
-        with a minor in Business. </p>
-        <p className="text-center mt-1 mr-2 mb-4 md:text-xl md:mx-20"> In my free time, I&apos;m usually working on personal projects but 
-            when I&apos;m not coding, you can find me sketching or out in nature!
-        </p>
+    <p className="text-center mr-2 md:text-xl md:mx-20"> Hello! I&apos;m Diya. I&apos;m majoring in Computer Science with a focus on AI/ML. <br/>
+        Currently I'm working on two capstones: Predicting CRRT in Burn Patients using machine learning with Creighton University School of Medicine 
+        and an Autonomous Rover for NASA Psyche Mission. My research interests are AI + cybersecurity.  
+        Feel free to check out my personal projects! 
+    </p>
     </div>
     <div className=" text-center opacity-90">
             <ul className="grid grid-cols-3 my-4 text-[#5886a3] md:text-xl">

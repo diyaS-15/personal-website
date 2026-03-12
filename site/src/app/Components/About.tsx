@@ -11,7 +11,7 @@ export default function About(){
     </div>
     <div>
     <p className="text-center mr-2 md:text-xl md:mx-20"> Hello! I&apos;m Diya. I&apos;m majoring in Computer Science with a focus on AI/ML. <br/>
-        Currently I'm working on two capstones: Predicting CRRT in Burn Patients using machine learning with Creighton University School of Medicine 
+        Currently I&apos;m working on two capstones: Predicting CRRT in Burn Patients using machine learning with Creighton University School of Medicine 
         and an Autonomous Rover for NASA Psyche Mission. My research interests are AI + cybersecurity.  
         Feel free to check out my personal projects! 
     </p>

@@ -7,13 +7,17 @@ export default function About(){
     <p className="text-4xl py-3  md:text-7xl text-[#5886a3] ">And I like to build things. </p>
     <div className="ml-0 m-4">
     <button className="border-double border-4 rounded-lg ml-0 mt-0 m-4 px-4 py-2 mb-8 hover:text-gray-400 md:text-xl">
-        <a href="/images/Diya_Shrivastava_Resume-public.pdf" target="_blank" rel="noopener noreferrer">Resume</a></button>
+        <a 
+        href="/images/Diya_Shrivastava_Resume-public.pdf" 
+        target="_blank" 
+        rel="noopener noreferrer">Resume</a>
+        </button>
     </div>
     <div>
     <p className="text-center mr-2 md:text-xl md:mx-20"> Hello! I&apos;m Diya. I am majoring in Computer Science with a focus on AI/ML.
         <br />
         Currently I am working on two capstones: Predicting CRRT in Burn Patients using machine learning with Creighton University School of Medicine 
-        and an Autonomous Rover for NASA Psyche Mission. My research interests are AI &#43; cybersecurity.  
+        and an Autonomous Rover for NASA Psyche Mission. My research interests are AI + cybersecurity.  
         Feel free to check out my personal projects! 
     </p>
     </div>
